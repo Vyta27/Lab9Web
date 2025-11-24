@@ -9,6 +9,7 @@ kelas : TI.24.A2
 ## Langkah 1
 - buat folder `lab9_php_modular` di `htdocs`
 - buat struktur folder seperti ini :
+  
 ```
 lab9_php_modular/
 ├── index.php
@@ -31,6 +32,7 @@ lab9_php_modular/
       └── css
           └── style.css
 ```
+
 ## Langkah 2 : Buat kobeksi database 
 - Tujuan : Menghubungkan seluruh modul ke database tanpa file terpisah.
 - file : `database.php`
@@ -156,6 +158,7 @@ else {
 include "views/footer.php";
 ?>
 ```
+
 ## Langkah 5 : Buat halaman login
 - file : `login.php`
 - Fitur :
