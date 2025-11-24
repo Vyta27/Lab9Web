@@ -162,15 +162,16 @@ include "views/footer.php";
       - Input username & password.
       - Tombol login & reset.
       - Menampilkan error jika salah.
-  ss
+  
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/37aed073-923c-481e-b9ab-1b7727a901f6" />
 
   ## Langkah 6 : Buat halaman dashboard
   - File : `dashboard.php`
   - Fitur :
         - tombol ke list & add barang.
         - tombol logout konsisten.
-
-  ss
+    
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/c98d57d3-b588-424d-ae0d-af697805809f" />
 
   ## Langkah 7 : Halaman List Barang
   - File : `list.php`
