@@ -33,8 +33,9 @@ lab9_php_modular/
           └── style.css
 ```
 
-## Langkah 2 : Buat kobeksi database 
+## Langkah 2 : Buat koneksi database 
 - Tujuan : Menghubungkan seluruh modul ke database tanpa file terpisah.
+  
 - file : `database.php`
 
 ```
@@ -61,7 +62,9 @@ if (!$conn) {
 ```
 
 ## Langkah 3 : Buat template Header & Footer
+
 - Tujuan : Membuat tampilan semua halaman konsisten.
+  
 - File: `header.php` & `footer.php`
   
 Header :
@@ -108,7 +111,9 @@ Footer :
 ```
 
 ## Langkah 4 : Implementasi Routing
+
 - Tujuan : Membuat halaman modular, dipanggil via `index.php?page=...`
+  
 - File : `index.php`
 
 ```
@@ -160,27 +165,41 @@ include "views/footer.php";
 ```
 
 ## Langkah 5 : Buat halaman login
+
 - file : `login.php`
+  
 - Fitur :
+  
       - Input username & password.
+  
       - Tombol login & reset.
+  
       - Menampilkan error jika salah.
   
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/37aed073-923c-481e-b9ab-1b7727a901f6" />
 
   ## Langkah 6 : Buat halaman dashboard
+  
   - File : `dashboard.php`
+    
   - Fitur :
+    
         - tombol ke list & add barang.
+    
         - tombol logout konsisten.
     
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/c98d57d3-b588-424d-ae0d-af697805809f" />
 
   ## Langkah 7 : Halaman List Barang
+  
   - File : `list.php`
+    
   - Fitur :
+    
         - tabel data barang.
+    
         - Tombol edit/hapus
+    
         - Live search
 
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/6097c832-c1a9-4461-b902-f2f2bf080308" />
@@ -188,27 +207,38 @@ include "views/footer.php";
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/df244f17-75d0-4e3b-92a9-7e68c95ac0cd" />
 
     ## Langkah 8 : Halaman add barang
+    
     - file : `add.php`
+    
     - Fitur :
+    
           - Form rapi, Flexbox, placeholder, tooltip.
+          
           - Upload gambar.
+          
           - Tombol Simpan & Reset pink.
 
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/714d6aed-aca4-4617-819f-d49f30a1ab97" />
 
     ## Langkah 9 : Edit barang
+    
     - File : `edit.php`
+    
     - Fitur :
+    
           - Form pre-filled data lama.
+          
           - Upload gambar opsional.
+          
           - Tombol Update & Reset.
 
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/9e97ea7d-09eb-467d-a411-f3cbf15f8c7f" />
 
     ## Langlah 10 : Halaman Logout
+    
     - File : `logout.php`
-    - Fitur :
-          - Menghapus session & redirect ke login.
+    
+    - Fitur : Menghapus session & redirect ke login.
 
 <img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/f4a48b54-fa46-43de-8e55-85b6d6c81ca6" />
 
