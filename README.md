@@ -180,7 +180,9 @@ include "views/footer.php";
         - Tombol edit/hapus
         - Live search
 
-    ss
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/6097c832-c1a9-4461-b902-f2f2bf080308" />
+
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/df244f17-75d0-4e3b-92a9-7e68c95ac0cd" />
 
     ## Langkah 8 : Halaman add barang
     - file : `add.php`
