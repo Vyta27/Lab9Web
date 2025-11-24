@@ -191,7 +191,7 @@ include "views/footer.php";
           - Upload gambar.
           - Tombol Simpan & Reset pink.
 
-    ss
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/714d6aed-aca4-4617-819f-d49f30a1ab97" />
 
     ## Langkah 9 : Edit barang
     - File : `edit.php`
@@ -200,13 +200,14 @@ include "views/footer.php";
           - Upload gambar opsional.
           - Tombol Update & Reset.
 
-      ss
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/9e97ea7d-09eb-467d-a411-f3cbf15f8c7f" />
 
     ## Langlah 10 : Halaman Logout
     - File : `logout.php`
     - Fitur :
           - Menghapus session & redirect ke login.
 
-      ss
+<img width="1920" height="1008" alt="Image" src="https://github.com/user-attachments/assets/f4a48b54-fa46-43de-8e55-85b6d6c81ca6" />
+
       
     
